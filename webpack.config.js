@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const developmentConfig = {
   mode: 'development',
-  entry: './dev/index.js',
+  entry: ['./dev/index.js'],
   output: {
     path: path.resolve(__dirname, 'public'),
   },
