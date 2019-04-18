@@ -13,9 +13,9 @@ npm install --save netlify-cms-widget-country-select
 ```
 
 ```js
-import { Control as countrySelectControl } from 'netlify-cms-widget-country-select'
+import { CountrySelectControl } from 'netlify-cms-widget-country-select'
 
-CMS.registerWidget('country-select', countrySelectControl)
+CMS.registerWidget('country-select', CountrySelectControl)
 ```
 
 Via `script` tag:
