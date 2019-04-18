@@ -45,6 +45,8 @@ export default class Control extends React.Component {
       classNameWrapper,
     } = this.props;
 
+    console.log(this.props);
+
     return (
       <select
         id={forID}
