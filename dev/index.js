@@ -17,7 +17,7 @@ const config = {
       name: 'test',
       label: 'Test',
       fields: [
-        { name: 'test_widget', label: 'Test Widget', widget: 'country-select' },
+        { name: 'country', label: 'Country', widget: 'country-select' },
       ],
     }],
   }],
