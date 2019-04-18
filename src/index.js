@@ -1,9 +1,14 @@
-import Control from './Control'
-import Preview from './Preview'
+import CountrySelectControl from './Control';
+import CountrySelectPreview from './Preview';
 
 if (typeof window !== 'undefined') {
-  window.CountrySelectControl = Control
-  window.CountrySelectPreview = Preview
+  window.CountrySelectControl = CountrySelectControl;
+  window.CountrySelectPreview = CountrySelectPreview;
 }
 
-export { Control as CountrySelectControl, Preview as CountrySelectPreview }
+const exportObject = {
+  CountrySelectControl,
+  CountrySelectPreview
+};
+
+export default exportObject;
