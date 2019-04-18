@@ -9,7 +9,7 @@
     "starter",
     "boilerplate"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/nathanieldavid/netlify-cms-widget-country-select",
   "license": "MIT",
   "main": "dist/index.js",
