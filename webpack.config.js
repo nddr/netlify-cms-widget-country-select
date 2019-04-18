@@ -33,6 +33,9 @@ const developmentConfig = {
 
 const productionConfig = {
   mode: 'production',
+  entry: {
+    index: ['./src/index.js']
+  },
   module: {
     rules: [
       {
@@ -42,6 +45,13 @@ const productionConfig = {
     ],
   },
   devtool: 'source-map',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js',
+    library: 'CountrySelectWidget',
+    libraryTarget: 'umd',
+    libraryExport: 'default',
+  }
 }
 
 module.exports = process.env.NODE_ENV === 'production' ? productionConfig : developmentConfig
