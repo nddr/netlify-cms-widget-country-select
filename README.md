@@ -1,7 +1,5 @@
 # netlify-cms-widget-country-select
 
-[Check out a demo!](https://netlify-cms-widget-country-select.netlify.com/demo)
-
 A select widget for netlify-cms providing all countries of the world as options.
 
 ## Install
